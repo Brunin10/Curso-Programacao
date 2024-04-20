@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&family=Tac+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root{
-    --cor-section: #e98888;
-    --font-padrao: "Noto Sans Buhid", "sans-serif";
-    --cor-botao: #72bedb;
-}
+--cor-section:  #bd147c;
+--fonte-padrao: "Open Sans", sans-serif;
+--cor-botao: #7806a5;
+} 
 
 *{
     margin: 0;
@@ -12,53 +12,51 @@
     box-sizing: border-box;
 }
 h1{
-    color: yellow;
+    color:blueviolet;
 }
-
 h1:active{
-    color: var(--cor-section);
+    color: pink;
 }
 .subtitulo{
-    color: green;
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: underline;
+        color: green;
+        font-weight: bold;
+        font-style: italic;
+        text-decoration: underline;
 
-}
-
+    }
 #paragrafo{
     width: 50%;
-    color: rgb(34, 67, 120);
+    color: rgb(0, 0, 0);
 }
 
-#paragrafo::first-line{
-    font-size: 2rem;
+#paragrafo::first-letter{
+font-size: 2rem;
 }
-
 section{
     width: 80%;
-    background: var(--cor-section);
     font-size: 16px;
-    font-family: var(--font-padrao);
+    background: var(--cor-section);
+    color: aliceblue;
+    font-family: var(--fonte-padrao);
+ 
 }
-
 #titulo2{
     font-size: 1rem;
 }
 
 input{
     display: block;
-}
+  }
 
-main, footer, header{
+ main, footer, header{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
 img{
-    width: 30%;
+width: 50%;
 }
 
 button:hover{
@@ -66,38 +64,36 @@ button:hover{
 }
 
 input:focus{
-    border: solid 3px #72bedb;
+    border: solid 3px #b40000;
     outline: none;
 }
 
 input::placeholder{
-    background: var(--cor-botao);
-    color: red;
+    background: #ffabdf;
+    color: #ffffff;
 }
+
 
 h3::after{
     content: " programadores!";
 }
-
-
 @media (max-width: 600px){
-    body {
-        background: blue;
+    body{
+        background: blue
     }
-
     p{
         font-size: 0.8rem;
     }
 }
 
-@media(min-width: 700px){
-    body {
-        background: yellow;
+@media (min-width: 700px){
+    body{
+        background:yellow;
     }
 }
 
 @media (max-width: 700px) and (min-width: 600px){
     body{
         background: green;
-    }
+    };
 }
