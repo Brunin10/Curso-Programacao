@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&family=Tac+One&display=swap');
 
-:root {
+:root{
     --cor-section: #e98888;
     --font-padrao: "Noto Sans Buhid", "sans-serif";
     --cor-botao: #72bedb;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -19,10 +20,10 @@ h1:active{
 }
 .subtitulo{
     color: green;
-    display: inline;
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
+
 }
 
 #paragrafo{
