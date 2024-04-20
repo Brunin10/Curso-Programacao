@@ -1,3 +1,3 @@
 //alert("Bom dia!");
-let nomeUsuario ="Brunoo";
+let nomeUsuario ="Bruno";
 console.log(nomeUsuario);
