@@ -4,4 +4,4 @@ console.log(nomeUsuario);
 console.log('Bom dia, "professores"!');
 console.log(`Seja bem vindo(a), ${nomeUsuario}!`);
 nomeUsuario = prompt("Digite o seu nome: ");
-console.log(`Seu nome é ${}`)
+console.log(`Seu nome é ${nomeUsuario}`);
