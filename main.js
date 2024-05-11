@@ -122,3 +122,5 @@ console.log(dataInicial.getMonth());
 
 const dataAtual = new Date();
 const horas = dataAtual.getHours();
+const minutos = dataAtual.getMinutes();
+const segundos = dataAtual.getSeconds();
