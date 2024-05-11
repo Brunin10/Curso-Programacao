@@ -24,7 +24,7 @@ let condicaoFalsa = false;
 console.log(condicao, condicaoFalsa);
 */
 
-//Operadores Aritméticos
+/*Operadores Aritméticos
 let soma;
 let diferenca;
 let produto;
@@ -86,7 +86,7 @@ console.log(array[0]);
 console.log(array[1]);
 console.log(array[2]);*/
 
-//Estruturas de Repetição
+/*Estruturas de Repetição
 for(let i = 0; i < 5; i = i + 1){
     //console.log(i);
 }
@@ -97,7 +97,12 @@ while(i < 10){
     i++;
 }*/
 
-//Função
+/*Função
 function somafuncao(numero1, numero2){
     return numero1 + numero2;
 }
+*/
+
+let numeroAleatorio;
+
+numeroAleatorio = Math.random() * 10;
