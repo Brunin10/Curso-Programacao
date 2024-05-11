@@ -124,3 +124,5 @@ const dataAtual = new Date();
 const horas = dataAtual.getHours();
 const minutos = dataAtual.getMinutes();
 const segundos = dataAtual.getSeconds();
+
+console.log(`${horas}:${minutos}:${segundos}`);
