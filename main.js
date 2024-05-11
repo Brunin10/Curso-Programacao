@@ -108,3 +108,9 @@ let numeroAleatorio;
 numeroAleatorio = Math.random() * 10;
 
 console.log(`Número aleatorio: ${numeroAleatorio}`);
+
+let numeroPiso;
+
+numeroPiso = Math.floor(3.15);
+
+console.log(`Número piso: ${numeroPiso}`);
