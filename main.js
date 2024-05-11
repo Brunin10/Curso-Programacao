@@ -118,3 +118,4 @@ console.log(`Número piso: ${numeroPiso}`);
 const dataInicial = new Date();
 console.log(dataInicial);
 console.log(dataInicial.getHours());
+console.log(dataInicial.getMonth());
