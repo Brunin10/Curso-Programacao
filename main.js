@@ -129,15 +129,8 @@ function atualizaRelogio () {
     console.log(`${horas}:${minutos}:${segundos}`);
 }
 
-
 atualizaRelogio();
 
 const relogio = setInterval(function () {
     atualizaRelogio();
-    const dataAtual = new Date();
-    const horas = dataAtual.getHours();
-    const minutos = dataAtual.getMinutes();
-    const segundos = dataAtual.getSeconds();
-
-    console.log(`${horas}:${minutos}:${segundos}`);
 }, 1000);
