@@ -115,5 +115,5 @@ numeroPiso = Math.floor(4.89);
 
 console.log(`Número piso: ${numeroPiso}`);
 
-const dataInicial = new Date(1000);
+const dataInicial = new Date();
 console.log(dataInicial.toUTCString());
