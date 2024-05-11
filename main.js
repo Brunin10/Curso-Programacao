@@ -134,3 +134,7 @@ atualizaRelogio();
 const relogio = setInterval(function () {
     atualizaRelogio();
 }, 1000);
+
+setTimeout(function () {
+    clearInterval(relogio);
+}, 10000);
