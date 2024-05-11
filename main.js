@@ -122,8 +122,10 @@ console.log(dataInicial.getMonth());
 
 function atualizaRelogio () {
     const dataAtual = new Date();
-    const horas = dataAtual.getHours();
-    const minutos = dataAtual.getMinutes();
+    let horas = dataAtual.getHours();
+    horas = adicionaZero(horas);
+    let minutos = dataAtual.getMinutes();
+    minutos = adicionaZero(minutos);
     const segundos = dataAtual.getSeconds();
     
     console.log(`${horas}:${minutos}:${segundos}`);
@@ -139,4 +141,10 @@ setTimeout(function () {
     clearInterval(relogio);
 }, 10000);
 
-function adicionaZero ()
+function adicionaZero (numero){
+    if(numero < 10){
+        numero = '0' + mumero;
+    }
+
+    return numero;
+}
