@@ -119,3 +119,6 @@ const dataInicial = new Date();
 console.log(dataInicial);
 console.log(dataInicial.getHours());
 console.log(dataInicial.getMonth());
+
+const dataAtual = new Date();
+const horas = dataAtual.getHours();
