@@ -106,3 +106,5 @@ function somafuncao(numero1, numero2){
 let numeroAleatorio;
 
 numeroAleatorio = Math.random() * 10;
+
+console.log(`Número aleatorio: ${numeroAleatorio}`);
