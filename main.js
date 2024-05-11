@@ -126,7 +126,8 @@ function atualizaRelogio () {
     horas = adicionaZero(horas);
     let minutos = dataAtual.getMinutes();
     minutos = adicionaZero(minutos);
-    const segundos = dataAtual.getSeconds();
+    let segundos = dataAtual.getSeconds();
+    segundos = adicionaZero(segundos);
     
     console.log(`${horas}:${minutos}:${segundos}`);
 }
@@ -143,7 +144,7 @@ setTimeout(function () {
 
 function adicionaZero (numero){
     if(numero < 10){
-        numero = '0' + mumero;
+        numero = '0' + numero;
     }
 
     return numero;
