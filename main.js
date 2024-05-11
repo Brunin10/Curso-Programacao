@@ -121,16 +121,14 @@ console.log(dataInicial.getHours());
 console.log(dataInicial.getMonth());
 
 function atualizaRelogio () {
-
+    const dataAtual = new Date();
+    const horas = dataAtual.getHours();
+    const minutos = dataAtual.getMinutes();
+    const segundos = dataAtual.getSeconds();
+    
+    console.log(`${horas}:${minutos}:${segundos}`);
 }
 
-
-const dataAtual = new Date();
-const horas = dataAtual.getHours();
-const minutos = dataAtual.getMinutes();
-const segundos = dataAtual.getSeconds();
-
-console.log(`${horas}:${minutos}:${segundos}`);
 
 atualizaRelogio();
 
