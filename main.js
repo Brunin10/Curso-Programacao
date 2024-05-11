@@ -138,3 +138,5 @@ const relogio = setInterval(function () {
 setTimeout(function () {
     clearInterval(relogio);
 }, 10000);
+
+function adicionaZero ()
